@@ -109,3 +109,36 @@ body {
 	bottom: -4px;
 	left: 20px;
 }
+
+#head {
+	background-image: url("../img/photo.png");
+	height: 90vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top 25% right 0;
+	padding: 0 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+#head h4 {
+	padding-bottom: 15px;
+}
+
+#head h1 {
+	color: #088178;
+}
+
+#head button {
+	background-image: url();
+	background-color: transparent;
+	color: #088178;
+	border: 0;
+	padding: 14px 80px 14px 65px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 15px;
+}
