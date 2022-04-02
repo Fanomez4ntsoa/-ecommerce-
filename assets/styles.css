@@ -135,7 +135,7 @@ body {
 }
 
 #head {
-	background-image: url("../img/photo.jpg");
+	background-image: url("../img/others/photo.jpg");
 	height: 90vh;
 	width: 100%;
 	background-size: cover;
@@ -307,7 +307,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-image: url("../img/ecommerce-.jpg");
+	background-image: url("../img/others/ecommerce-.jpg");
 	width: 100%;
 	height: 40vh;
 	background-size: cover;
@@ -345,7 +345,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-image: url('../img/jackets.jpg');
+	background-image: url('../img/others/jackets.jpg');
 	min-width: 680px;
 	height: 50vh;
 	background-size: cover;
@@ -354,7 +354,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-	background-image: url('../img/blouse.jpg');
+	background-image: url('../img/others/blouse.jpg');
 }
 
 #sm-banner h4 {
@@ -393,7 +393,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-image: url("../img/present.jpg");
+	background-image: url("../img/others/present.jpg");
 	min-width: 30%;
 	height: 30vh;
 	background-size: cover;
@@ -403,11 +403,11 @@ body {
 }
 
 #banner3 .banner-box2 {
-	background-image: url("../img/present.jpg");
+	background-image: url("../img/others/present.jpg");
 }
 
 #banner3 .banner-box3 {
-	background-image: url("../img/present.jpg");
+	background-image: url("../img/others/present.jpg");
 }
 
 #banner3 h2 {
@@ -537,7 +537,7 @@ footer .copyright {
 }
 
 #page-header {
-	background-image: url('../img/people.jpg');
+	background-image: url('../img/others/people.jpg');
 	width: 100%;
 	height: 40vh;
 	background-size: auto;
@@ -640,7 +640,7 @@ footer .copyright {
 }
 
 #page-header.blog-header {
-	background-image: url("../img/blog.jpg");
+	background-image: url("../img/blog/blog.jpg");
 	background-position: center;
 }
 
@@ -782,7 +782,7 @@ footer .copyright {
 }
 
 #page-header.contact-header {
-	background-image: url("../img/contact/contacte.jpg");
+	background-image: url("../img/others/binary.jpg");
 	background-size: cover;
 }
 
@@ -895,4 +895,114 @@ footer .copyright {
 	font-size: 16px;
 	font-weight: 600;
 	color: #000;
+}
+
+#cart table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+
+#cart table img {
+	width: 100px;
+}
+
+#cart table thead {
+	border: 1px solid #e2e9e1;
+	border-left: none;
+	border-right: none;
+}
+
+#cart table thead td {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 18px 0;
+}
+
+#cart table tbody tr td {
+	padding-top: 15px;
+}
+
+#cart table tbody td {
+	font-size: 13px;
+}
+
+#cart table td:nth-child(1) {
+	width: 100px;
+	text-align: center;
+}
+
+#cart table td:nth-child(2) {
+	width: 150px;
+	text-align: center;
+}
+
+#cart table td:nth-child(3) {
+	width: 250px;
+	text-align: center;
+}
+
+#cart table td:nth-child(4), 
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+	width: 150px;
+	text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+	width: 70px;
+	padding: 10px 5px 10px 15px;
+}
+
+#cart-add {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#coupon {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3 {
+	padding-bottom: 15px;
+} 
+
+#coupon input {
+	padding: 10px 20px;
+	outline: none;
+	width: 60%;
+	margin-right: 10px;
+	border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button {
+	background-color: #088178;
+	color: #fff;
+	padding: 12px 20px;
+}
+
+#subtotal {
+	width: 50%;
+	margin-bottom: 30px;
+	border: 1px solid #e2e9e1;
+	padding: 30px;
+}
+
+#subtotal table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#subtotal table td {
+	width: 50%;
+	border: 1px solid #e2e9e1;
+	padding: 10px;
+	font-size: 13px;
 }
