@@ -144,7 +144,7 @@ body {
 }
 
 #head {
-	background-image: url("../img/others/photo.jpg");
+	background-image: url("../assets/img/others/photo.jpg");
 	height: 90vh;
 	width: 100%;
 	background-size: cover;
@@ -316,7 +316,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-image: url("../img/others/ecommerce-.jpg");
+	background-image: url("../assets/img/others/ecommerce-.jpg");
 	width: 100%;
 	height: 40vh;
 	background-size: cover;
@@ -354,7 +354,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-image: url('../img/others/jackets.jpg');
+	background-image: url('../assets/img/others/jackets.jpg');
 	min-width: 680px;
 	height: 50vh;
 	background-size: cover;
@@ -363,7 +363,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-	background-image: url('../img/others/blouse.jpg');
+	background-image: url('../assets/img/others/blouse.jpg');
 }
 
 #sm-banner h4 {
@@ -402,7 +402,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-image: url("../img/others/present.jpg");
+	background-image: url("../assets/img/others/present.jpg");
 	min-width: 30%;
 	height: 30vh;
 	background-size: cover;
@@ -412,11 +412,11 @@ body {
 }
 
 #banner3 .banner-box2 {
-	background-image: url("../img/others/present.jpg");
+	background-image: url("../assets/img/others/present.jpg");
 }
 
 #banner3 .banner-box3 {
-	background-image: url("../img/others/present.jpg");
+	background-image: url("../assets/img/others/present.jpg");
 }
 
 #banner3 h2 {
@@ -546,7 +546,7 @@ footer .copyright {
 }
 
 #page-header {
-	background-image: url('../img/others/people.jpg');
+	background-image: url('../assets/img/others/people.jpg');
 	width: 100%;
 	height: 40vh;
 	background-size: auto;
@@ -649,7 +649,7 @@ footer .copyright {
 }
 
 #page-header.blog-header {
-	background-image: url("../img/blog/blog.jpg");
+	background-image: url("../assets/img/blog/blog.jpg");
 	background-position: center;
 }
 
@@ -718,7 +718,7 @@ footer .copyright {
 }
 
 #page-header.about-header {
-	background-image: url("../img/about/about.jpg");
+	background-image: url("../assets/img/about/about.jpg");
 	background-position: center;
 }
 
@@ -789,7 +789,7 @@ footer .copyright {
 }
 
 #page-header.contact-header {
-	background-image: url("../img/contact/contact.jpg");
+	background-image: url("../assets/img/contact/contact.jpg");
 	background-size: cover;
 	background-position: right;
 }
@@ -910,7 +910,7 @@ footer .copyright {
 }
 
 #page-header.cart-header {
-	background-image: url("../img/others/photo-1.png");
+	background-image: url("../assets/img/others/photo-1.png");
 	background-size: cover;
 	background-position: left;
 }
