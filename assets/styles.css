@@ -727,18 +727,16 @@ footer .copyright {
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-right: 200px;
-	margin-left: 200px;
 }
 
 #about-feature .about-fe-box {
-	width: 250px;
+	width: 200px;
 	text-align: center;
-	padding: 25px 15px;
+	padding: 25px 10px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 	border: 1px solid #cce7d0;
 	border-radius: 4px;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 
 #about-feature .about-fe-box:hover {
@@ -793,6 +791,7 @@ footer .copyright {
 #page-header.contact-header {
 	background-image: url("../img/contact/contact.jpg");
 	background-size: cover;
+	background-position: right;
 }
 
 #contact-details {
@@ -904,6 +903,10 @@ footer .copyright {
 	font-size: 16px;
 	font-weight: 600;
 	color: #000;
+}
+
+#cart {
+	overflow-x: auto;
 }
 
 #page-header.cart-header {
@@ -1027,6 +1030,10 @@ footer .copyright {
 
 @media (max-width: 799px ) {
 
+	.section-p1 {
+		padding: 40px 40px;
+	}
+
 	#navbar {
 		display: flex;
 		flex-direction: column;
@@ -1103,6 +1110,24 @@ footer .copyright {
     width: 70%;
 	}
 
+	#page-header {
+    background-size: cover;
+  }
+
+  #contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+	}
+
+	#from-details {
+    padding: 40px;
+	}
+
+	#from-details form {
+		width: 50%;
+	}
 }
 
 @media (max-width: 477px) {
@@ -1180,5 +1205,74 @@ footer .copyright {
 
 	#newsletter .form {
 		width: 100%;
+	}
+
+	#blog {
+    padding: 150px 20px 0px 20px;
+	}
+
+	#blog.blog-box {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	#blog.blog-img {
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+
+	#blog.blog-details {
+		width: 100%;
+	}
+
+	#about-feature {
+		align-items: center;
+		justify-content: space-between;
+		text-align: center;
+		padding: 10px 50px 0 90px ;
+	}
+
+	#about-app .video {
+    width: 90%;
+    height: 100%;
+	}
+
+	#contact-details {
+    flex-direction: column;
+	}
+
+	#contact-details .details {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	#contact-details .map {
+		width: 100%;
+	}
+
+	#from-details {
+		margin: 10px;
+		padding: 30px 10px;
+		flex-wrap: wrap;
+	}
+
+	#from-details form {
+    width: 100%;
+    margin-bottom: 30px;
+	}
+
+	#cart-add {
+		flex-direction: column;
+	}
+
+	#coupon {
+		width: 100%;
+	}
+
+	#subtotal {
+		width: 100%;
+		padding: 20px;
 	}
 }
