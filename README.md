@@ -7,4 +7,4 @@
 - Advanced responsive design using media queries.
 
 
-![preview img](/preview.png)
+![preview img](/assets/img/project-capture-ecran.png)
